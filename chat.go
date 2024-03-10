@@ -8,7 +8,6 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"golang.org/x/net/proxy"
 	"io"
 	"math/rand"
 	"net"
@@ -17,6 +16,7 @@ import (
 	"reflect"
 	"regexp"
 	"strings"
+	"golang.org/x/net/proxy"
 )
 
 const (
